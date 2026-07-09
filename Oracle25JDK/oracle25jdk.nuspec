@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <id>oracle21jdk</id>
-    <version>21.0.11</version>
-    <packageSourceUrl>https://github.com/HackproTm/choco-packages/tree/main/Oracle21JDK</packageSourceUrl>
-    <title>Oracle 21 JDK</title>
+    <id>oracle25jdk</id>
+    <version>25.0.3</version>
+    <packageSourceUrl>https://github.com/HackproTm/choco-packages/tree/main/Oracle25JDK</packageSourceUrl>
+    <title>Oracle 25 JDK</title>
     <authors>Oracle</authors>
     <owners>HackproTm</owners>
     <licenseUrl>https://www.oracle.com/downloads/licenses/no-fee-license.html</licenseUrl>
     <projectUrl>https://www.oracle.com/java</projectUrl>
-    <docsUrl>https://docs.oracle.com/en/java/javase/21</docsUrl>
+    <docsUrl>https://docs.oracle.com/en/java/javase/25</docsUrl>
     <mailingListUrl>https://www.oracle.com/java</mailingListUrl>
     <bugTrackerUrl>https://www.oracle.com/java</bugTrackerUrl>
     <projectSourceUrl>https://github.com/openjdk/jdk</projectSourceUrl>
     <tags>oracle jdk java jvm</tags>
-    <summary>Oracle JDK 21 is a distribution of OpenJDK provided by Oracle.</summary>
-    <description>Oracle JDK 21 is a distribution of OpenJDK provided by Oracle.</description>
+    <summary>Oracle JDK 25 is a distribution of OpenJDK provided by Oracle.</summary>
+    <description>Oracle JDK 25 is a distribution of OpenJDK provided by Oracle.</description>
   </metadata>
 </package>
