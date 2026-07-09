@@ -40,20 +40,12 @@ This repo contains the source for various Chocolatey packages maintained by [Hac
 
 ## Contributing
 
-1. Fork the repository
-2. Create a feature branch from `main`
-3. Make your changes
-4. Build and test the package locally
-5. Submit a Pull Request
+1. Create a feature branch from `main`
+2. Make your changes
+3. Build and test the package locally
+4. Submit a Pull Request
 
 > **Note:** The `main` branch is protected. All changes must go through a Pull Request.
-
-## Workflows
-
-This repository uses GitHub Actions for automated package publishing. To configure:
-
-1. Create an [environment](https://github.com/HackproTm/choco-packages/settings/environments) called `Push-Packages`
-2. Add the environment secret `CHOCOLATEY_API_KEY`
 
 ## License
 
