@@ -3,7 +3,7 @@
   <metadata>
     <id>oracle21jdk</id>
     <version>21.0.11</version>
-    <packageSourceUrl>https://github.com/HackproTm/choco-packages/tree/master/Oracle21JDK</packageSourceUrl>
+    <packageSourceUrl>https://github.com/HackproTm/choco-packages/tree/main/Oracle21JDK</packageSourceUrl>
     <title>Oracle 21 JDK</title>
     <authors>Oracle</authors>
     <owners>HackproTm</owners>

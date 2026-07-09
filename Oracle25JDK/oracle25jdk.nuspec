@@ -3,7 +3,7 @@
   <metadata>
     <id>oracle25jdk</id>
     <version>25.0.3</version>
-    <packageSourceUrl>https://github.com/HackproTm/choco-packages/tree/master/Oracle25JDK</packageSourceUrl>
+    <packageSourceUrl>https://github.com/HackproTm/choco-packages/tree/main/Oracle25JDK</packageSourceUrl>
     <title>Oracle 25 JDK</title>
     <authors>Oracle</authors>
     <owners>HackproTm</owners>
