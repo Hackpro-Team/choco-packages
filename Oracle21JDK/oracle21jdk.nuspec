@@ -3,7 +3,7 @@
   <metadata>
     <id>oracle21jdk</id>
     <version>21.0.11</version>
-    <packageSourceUrl>https://github.com/HackproTm/choco-packages/tree/main/Oracle21JDK</packageSourceUrl>
+    <packageSourceUrl>https://github.com/Hackpro-Team/choco-packages/tree/main/Oracle21JDK</packageSourceUrl>
     <title>Oracle 21 JDK</title>
     <authors>Oracle</authors>
     <owners>HackproTm</owners>
@@ -12,7 +12,7 @@
     <docsUrl>https://docs.oracle.com/en/java/javase/21</docsUrl>
     <mailingListUrl>https://www.oracle.com/java</mailingListUrl>
     <bugTrackerUrl>https://www.oracle.com/java</bugTrackerUrl>
-    <iconUrl>https://www.oracle.com/favicon.ico</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/Hackpro-Team/choco-packages/main/assets/oracle-favicon.ico</iconUrl>
     <releaseNotes>https://www.oracle.com/java/technologies/javase/21all-relnotes.html</releaseNotes>
     <projectSourceUrl>https://github.com/openjdk/jdk</projectSourceUrl>
     <tags>oracle jdk java jvm</tags>
