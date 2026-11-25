@@ -6,9 +6,11 @@ This repo contains the source for various Chocolatey packages maintained by [Hac
 
 | Package | Version | Description |
 |---------|---------|-------------|
-| [Oracle21JDK](Oracle21JDK) | 21.0.11 | Oracle JDK 21 (LTS) |
+| [Oracle21JDK](Oracle21JDK) | 21.0.12.1 | Oracle JDK 21 (LTS) |
 | [Oracle25JDK](Oracle25JDK) | 25.0.5.1 | Oracle JDK 25 (LTS) |
-| [Oracle26JDK](Oracle26JDK) | 26.0.1 | Oracle JDK 26 |
+| [Oracle26JDK](Oracle26JDK) | 26.0.2.1 | Oracle JDK 26 |
+
+> **Note:** Oracle JDK 21 updates from 21.0.13 onward are licensed under the OTN license and have no public direct download, so `oracle21jdk` tracks the last NFTC release (21.0.12.1). JDK 26 is end-of-life, so `oracle26jdk` tracks its final public update (26.0.2.1). All packages pin their installer URL to Oracle's archive so the package version and binary stay in sync.
 
 ## Changing packages
 
