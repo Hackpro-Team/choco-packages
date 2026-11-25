@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>oracle21jdk</id>
-    <version>21.0.11</version>
+    <version>21.0.12.1</version>
     <packageSourceUrl>https://github.com/Hackpro-Team/choco-packages/tree/main/Oracle21JDK</packageSourceUrl>
     <title>Oracle 21 JDK</title>
     <authors>Oracle</authors>
