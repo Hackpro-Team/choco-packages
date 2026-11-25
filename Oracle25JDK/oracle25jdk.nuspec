@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>oracle25jdk</id>
-    <version>25.0.3</version>
+    <version>25.0.5.1</version>
     <packageSourceUrl>https://github.com/Hackpro-Team/choco-packages/tree/main/Oracle25JDK</packageSourceUrl>
     <title>Oracle 25 JDK</title>
     <authors>Oracle</authors>

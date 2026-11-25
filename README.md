@@ -7,12 +7,15 @@ This repo contains the source for various Chocolatey packages maintained by [Hac
 | Package | Version | Description |
 |---------|---------|-------------|
 | [Oracle21JDK](Oracle21JDK) | 21.0.11 | Oracle JDK 21 (LTS) |
-| [Oracle25JDK](Oracle25JDK) | 25.0.3 | Oracle JDK 25 (LTS) |
+| [Oracle25JDK](Oracle25JDK) | 25.0.5.1 | Oracle JDK 25 (LTS) |
 | [Oracle26JDK](Oracle26JDK) | 26.0.1 | Oracle JDK 26 |
 
 ## Changing packages
 
 * Change the files
+* Keep the `version` in `*.nuspec` in sync with the binary referenced by `tools/chocolateyinstall.ps1`
+* Pin download URLs to a specific version (for example, `/archive/jdk-25.0.5.1_windows-x64_bin.exe`) instead of `/latest/`, so the package version and the binary cannot drift apart
+* Update `Checksum64` whenever the installer URL changes. Oracle publishes a matching `.sha256` file next to each binary, for example `https://download.oracle.com/java/25/archive/jdk-25.0.5.1_windows-x64_bin.exe.sha256`
 * Build the package: `choco pack`
 * Test the package (as administrator): `choco install [packageName] -dv -s .`
 
@@ -20,20 +23,23 @@ This repo contains the source for various Chocolatey packages maintained by [Hac
 
 1. Copy an existing package directory
 2. Change `id`, `version`, `packageSourceUrl` and `title` in the `*.nuspec` file
-3. Update `url` and `checksum` in `tools/chocolateyinstall.ps1`
+3. Set `Url64bit` to the archive URL for that exact version and set `Checksum64` to its SHA256 hash in `tools/chocolateyinstall.ps1`
 
 ## Maintaining packages
 
-1. Create a [Chocolatey account](https://community.chocolatey.org/account)
-2. Create an API key and configure it locally:
+1. When Oracle releases an update, bump `version` in the `*.nuspec`, point `Url64bit` to the new archive binary and update `Checksum64` using Oracle's published `.sha256` file
+2. Update the version in the "Available packages" table above
+3. Create a feature branch from `main`, commit the changes, push it and open a Pull Request
+4. Once merged, create a [Chocolatey account](https://community.chocolatey.org/account)
+5. Create an API key and configure it locally:
    ```
    choco apikey -k <your-api-key> -s https://push.chocolatey.org/
    ```
-3. Build the package:
+6. Build the package:
    ```
    choco pack
    ```
-4. Push the package:
+7. Push the package:
    ```
    choco push [package].nupkg --source https://push.chocolatey.org/
    ```
